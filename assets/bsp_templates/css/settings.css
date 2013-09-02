@@ -1,0 +1,9 @@
+body {
+    background:#000;font-family:Verdana,sans-serif; color:#fff;
+}
+p {
+    font-size:10pt; line-height:14pt;
+}
+b {
+    font-weight: bold;font-size:10pt; line-height:14pt;
+}

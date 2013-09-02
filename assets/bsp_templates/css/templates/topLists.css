@@ -1,0 +1,128 @@
+.playerPic_topLists {
+    width: 80px;
+    height: 80px;
+}
+
+.topPlayerLists {
+    margin: 50px 0 0 7px;
+    width: 190px;
+    float: left;
+    padding: 3px 5px 0px 5px;
+    height:30px;
+    line-height:11px;
+} 
+.topPlayerLists.noBg {
+	background:none;
+	margin-top:19px; 
+}
+
+.topPlayerLists .firstPlayer {
+    margin: 0 0 0 10px !important;
+}
+
+.topPlayerLists .firstPlayer em {
+    margin: 0 0 0 20px !important;
+}
+
+.firstPlayerNumber {
+    margin: -5px 0 0 0;
+    font-size: 24px;
+    float: right;
+    padding-right: 5px;
+}
+
+.long {
+    margin-left: -10px;
+}
+
+.long .legend {
+    margin-right: -15px !important;
+    margin-top: -18px;
+} 
+
+ol.belowSticky {
+	/*counter-reset:listnumber 1;  */
+	display:block; 
+	margin-top:6px;
+} 
+ol.belowSticky li {
+	flex-item:0;
+} 
+
+.playerAndLogo {
+	padding: 0 20px;
+  margin-top: 17px;
+  overflow: hidden;
+}
+
+.topTen .playerAndLogo {
+	padding-left:20px;
+	margin-top:28px; 
+	position:relative;
+}
+
+.cell .playerAndLogo {
+	padding:0;
+  margin-top:0;
+}
+
+.bigSlider {
+	float:left;
+	width:140px;
+	margin-left:40px;
+/*	margin-top:4px; */
+	position:relative;  
+	padding-left:37px;
+} 
+.bigSlider .numbers {
+	width:122px;
+	float:left;
+} 
+.bigSlider .slideBar,
+.bigSlider .slideBar .bar {
+	height:27px;
+}
+.bigSlider big {
+	font-size:30px; 
+	width:auto;
+	position:absolute;
+	left:0;
+	top:-6px; 
+	height:auto;
+} 
+
+.bigSlider .doubleBarValue {
+	font-size:24px;  
+	font-weight:normal !important;
+	line-height:24px;
+}
+
+ol.oneBar {
+	position:absolute; 
+	height:auto !important;
+	width:94px; 
+	display:block;
+	top:49px;
+	left:207px;
+} 
+ol.bar.oneBar.numbersInside dl > dd {
+	height: 30px;
+}
+ol.bar.oneBar.numbersInside dl {
+	width:100% !important;
+}
+ol.oneBar li {
+	padding:0 !important; 
+	min-height:0 !important;
+} 
+ol.oneBar li .bar {
+	height:28px !important;
+}
+ol.oneBar li .number {
+	font-size:24px !important;
+	line-height:28px !important;
+} 
+
+ol.bar.cards {
+	 margin-top:0;
+}

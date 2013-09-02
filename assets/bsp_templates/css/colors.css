@@ -1,0 +1,107 @@
+body, html {
+/*  background-color:#262626;*/
+  background-color:#000;
+  color:#fff;
+}
+
+/* black */
+.playerInfo .symbols .jersey {
+  /*color:#000;*/
+}
+h1.nextpage, .playerTop h1, .top h1 {
+  background: rgba(0,0,0,0.3);
+}
+.bottom .subtitle {
+  background: rgba(0,0,0,0.1);
+}
+
+
+/* white */
+ol.bar li a, .topTen ol.bar li dd.number, ol.bar.numbersInside .numbers .doubleBarValue, .bigSlider .doubleBarValue, .legend span, .numbers .doubleBarValue, ul.legendVert li.title {
+  color:#fff;
+}
+h1.nextpage {
+  color:rgba(255,255,255,0.2);
+}
+p.places:before {
+  background-color:#fff;
+}
+div.lastGame h1 { background:transparent !important }
+
+/* lightblue */
+.firstValue, .bar.top, ol.bar dt, .numberR, .cardLabel, ol.bar li big, .characteristics em, .bigSlider big, h2.heatmap, body.landscape div.top h2 {
+  color:#2FAAE1;
+}
+
+/* lightblue TopLists */
+.topPlayerLists .firstPlayer em {
+   color:#96cce4;
+}
+
+/* darkblue */
+.doubleBar .bar:nth-child(2), .top span.legend span.barSecond:before, .slideBar span.bar:last-child {
+  background: #03669f;
+}
+
+/* light grey */
+ol.bar em, ul.photo em, div.subtitle, div.characteristics strong, .bottom p, .bottom .subtitle {
+  color:#a8a8a8;
+}
+
+/* grey */
+.secondValue, .leftPlayer em, .rightPlayer em, .bar.bottom, .numberL, .topPlayerLists.noBg .firstPlayer em, 
+ul.verticalBars li.second .bar.top, .landscape .top span.legend span.barSecond, ul.legendVert li, p.places, 
+.top h3 span.legend, .field .info {
+  color:#676767;
+}
+ul.info li:nth-child(2) {
+  color:#7A7A7A;
+}
+div.lineDiagram, ul.verticalBars {
+  border-color:#676767;
+}
+
+/* yellow */
+.valueBig .yellow:after, .valueBig .yellowred:before {
+  background-color:#F2E500;
+}
+
+
+/* tricot colors */
+/* bayern */
+.playerInfo .symbols .jersey {
+  /*background-color:#fa0;*/
+} 
+
+/* gradients*/
+/* blue */
+.top ul.info li:before, ol.bar dd span, .bar.top, .barR, .doubleBar .bar:nth-child(1), .top span.legend span:before, .topPlayerLists, .lineChartLegend, .slideBar span.bar:first-child, ul.verticalBars li .bar.vertical {    
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2792BC), color-stop(100%, #34A5DF));
+  background-image:-webkit-linear-gradient(top, #34A5DF 0%,#2792BC 100%);
+}
+
+/* grey */
+ul.info li:nth-child(2):before, div.gridMask, ol.topbottom li:nth-child(2) dl span {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3d3d3d), color-stop(100%, #696969));
+  background-image:-webkit-linear-gradient(bottom, #3d3d3d, #696969);
+}
+
+.bar.bottom, .barL, .doubleBar .bar:nth-child(2), .landscape .top span.legend span.barSecond:before, ul.verticalBars li.second .bar.vertical {
+  background:#656565; 
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #545454), color-stop(100%, #656565));
+  background: -webkit-linear-gradient(top, #656565 0%,#545454 100%);
+}
+
+/* yellow */
+.card.yellow, .card.yellowred:before {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #beb524), color-stop(100%, #ecdf01));
+  background-image:-webkit-linear-gradient(bottom, #beb524, #ecdf01);
+}
+
+/* red */
+.card.red, .card.yellowred {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #94110e), color-stop(100%, #d1210b));
+  background-image:-webkit-linear-gradient(bottom, #94110e, #d1210b);
+}
+
+div.activeGame h1 { color: #b01d00;background:transparent !important }

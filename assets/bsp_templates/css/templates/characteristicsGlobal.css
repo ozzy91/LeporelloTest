@@ -1,0 +1,151 @@
+.marginFix {
+    margin: 0 0 0 -10px;
+}
+
+body.characteristics .top {
+  height:18%;
+  min-height:90px;
+}
+
+body.characteristics .main {
+  height:57%;
+  min-height:90px;
+  padding:0;
+}
+
+body.characteristics.comparison .main {
+  height:50%;
+  min-height:90px;
+  padding:0;
+}
+
+.playerCharacteristics {
+    padding-top: 10px;
+    height: 150px !important;
+}
+
+body.heatmap .top {
+  height:22%;
+}
+
+body.heatmap div.twoColumn {
+  height:auto;
+}
+
+h2.heatmap {
+  font-size:18px;
+  line-height:16px;
+  margin-top:-3px;
+}
+
+div.heatmap {
+  margin-bottom:3px;
+}
+
+div.heatmap img {
+  opacity:0.5;
+}
+
+body.heatmap .bottom p {
+  font-size:9px;
+  line-height:11px;
+}
+
+body.heatmap .bottom .subtitle {
+	bottom:6px;
+ 	font-size:9px;
+}
+
+div.characteristics {
+    overflow:hidden;
+    margin: 10px 0 0 0;
+    height:100%;
+    width:100%;
+}
+
+
+div.characteristics dt {
+    width: 44%;
+    margin-right:7%;
+    min-height:22px;
+}
+
+div.characteristics.center dt {
+    text-align: right;
+}
+
+div.characteristics dd {
+    width: 47%;
+    margin-left:3%;
+}
+
+div.characteristics strong {
+    font-weight:bold;
+    width:2em;
+    text-align:right;
+    display:inline-block;
+}
+
+div.characteristics dd strong {
+ 	text-align:left;
+}
+
+.p34_a1b .playerInfo .symbols .emblem {
+    margin-left: 23px;
+}
+
+.p34_a1b .playerInfo .symbols .jersey {
+    margin-top: 14px;
+    margin-left: 18px;
+}
+
+.without_advertisment dt, .without_advertisment dd {
+	padding: 10px 0 0 0;
+}
+
+body.characteristics .top .threeColumn {
+  -webkit-box-pack: end;
+}
+.characteristics .top .threeColumn:nth-child(2) {
+ 	height:auto;
+  width:32%;
+}
+.characteristics .top .threeColumn:nth-child(3) {
+ 	width:35%;
+}
+body.characteristics .top .threeColumn:nth-child(4) {
+  -webkit-box-pack: start;
+  width:32%;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+  width:100%;
+}
+table th {
+  position:relative;
+  font-weight:bold;
+  vertical-align:bottom;
+}
+table th .card {
+  width:9px;
+  height:12px;
+  top:auto;
+  bottom:0;
+  position:relative;
+}
+table th .card.yellowred:before {
+  content:"";
+  display:block;
+  width:8px;
+  height:11px;
+  position:absolute;
+  right: -1px;
+	top: 1px;
+  z-index:2;
+}
+table td {
+ 	padding:7px 0;
+}
+

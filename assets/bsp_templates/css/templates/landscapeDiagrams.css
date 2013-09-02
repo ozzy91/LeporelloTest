@@ -1,0 +1,289 @@
+/* landscape */
+body.landscape {
+  width:480px;  
+  padding:15px;
+  height:100%;
+}
+
+div.lineDiagram {
+	width:450px;
+	height:165px;
+  padding: 0 0 10px 52px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+body.landscape div.top {
+	position:absolute;
+	height:60px;
+}
+
+body.landscape div.top h1 {
+ 	background:none;
+  font-size:20px;
+  padding:0 0 0 43px;
+  line-height:18px;
+  min-height:20px;
+}
+
+body.landscape div.top h2 {
+  padding:0 0 0 43px;
+  line-height:10px;
+}
+
+body.landscape div.top .teamlogo {
+ 	margin:0;
+        position:absolute;
+        top:0;
+}
+
+body.landscape .top span.legend {
+ display:block;
+ width:40%;
+ top:-2px;
+}
+
+body.landscape .top span.legend span {
+ 	float:none;
+  display:block;
+ 	font-size:15px;
+  margin:0 0 5px;
+}
+
+body.landscape .main {
+	height:100%;
+ 	padding:60px 0 36px;
+}
+
+ul.verticalBars {
+	position:relative;
+ 	border-bottom-width:1px;
+  border-bottom-style:solid;
+  height: 100%;
+}
+
+ul.verticalBars li,
+ul.verticalBars li div {
+	height: 100%;
+  position:relative;
+  display: inline-block;
+	width: 22px;
+}
+ul.verticalBars li div {
+	position:absolute;
+ 	bottom:0px;
+  z-index:0;
+  overflow:hidden;
+}
+
+ul.verticalBars li.second {
+  margin-right:14px;
+}
+
+ul.verticalBars li.legend {
+	margin-right:4%;
+ position:relative;
+ top:20px;
+ width:auto;
+}
+
+ul.verticalBars em {
+  position: absolute;
+bottom: -31px;
+z-index: 2;
+text-align: center;
+white-space: pre;
+width: 48px;
+height: 30px;
+line-height: 30px;
+}
+.bar.vertical {
+	height:90%;
+	position:absolute;
+	bottom:-90%;
+	-webkit-transition:all 1s ease;
+}
+.bar.vertical .value {
+	position:absolute;
+	top:-20px;
+	font-weight:bold;
+	text-align:center;
+ 	width:22px;
+}
+
+/* 18 places */
+div.grid {
+  width:340px;
+  height:180px;
+  float:left;
+  position:relative;
+  margin-top:11px;
+}
+
+div.bars {
+ 	position:relative;
+  overflow:hidden;
+  height:180px;
+}
+
+div.gridMask {
+  -webkit-mask-box-image:url(../../images/backgrounds/grid.png) 0 0 0 0;
+  position:absolute;
+  top:0;
+  left:0;
+  width:340px;
+  height:300px; /* up to 30 places */
+}
+
+div.grid span {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  background:url(../../images/backgrounds/gridBar.png) 0 0 repeat;
+  width: 10px;
+  height: 180px;
+  display: block;
+  float:left;
+ 	bottom: -180px;
+	position:relative;
+}
+
+/* 20 places */
+div.grid.p20, .p20 div.bars {
+  height:200px;
+}
+
+div.grid.p20 span {
+ 	height:200px;
+  bottom:-200px;
+}
+
+/* legend */
+ul.legendVert {
+  width: 60px;
+  float: left;
+  text-align: right;
+  height: 190px;
+  top: -10px;
+  position: relative;
+  padding-right: 5px;
+  font-size: 9px;
+}
+
+ul.legendVert li {
+  height:50px;
+  padding:0 10px 0 0;
+}
+
+ul.legendVert li.title {
+	font-weight:bold;
+ 	padding-right:0;
+  height:20px;
+  font-size:10px;
+}
+
+ul.legendVert li:nth-child(2) {
+	height:40px;
+}
+ul.legendVert li.p18 {
+	height:30px;
+}
+
+ul.legendHor {
+  clear:left;
+  padding: 10px 0 0 60px;
+  position:relative;
+}
+
+ul.legendHor li {
+  width:50px;
+  float:left;
+}
+
+ul.legendHor li:nth-child(2) {
+	width:41px;
+  padding-left:1px;
+}
+
+ul.legendHor li:nth-child(3) {
+ 	width:47px;
+}
+
+ul.legendHor li:nth-child(8) {
+	width:40px;
+}
+
+ul.legendHor li.title {
+  position:absolute;
+  top:26px;
+  font-weight:bold;
+}
+
+p.places {
+ 	position:absolute;
+  left:-5px;
+  top:20px;
+  width:400px;
+  text-align:right;
+  line-height:7px;
+}
+p.places:before {
+ 	content:"";
+ 	position:absolute;
+  top:5px;
+  width:350px;
+  height:1px;
+}
+
+p.places.cl {
+ 	top:34px;
+}
+
+p.places.relegation {
+  top:144px;
+}
+
+p.places em {
+  text-align:left;
+  display:inline-block;
+  line-height:10px;
+}
+
+.chartYaxis {
+    position: absolute;
+    top: 55px;
+}
+
+.chartYaxis li {
+    margin-bottom: 60px;
+    font-size: 14px;
+}
+
+.diagrammDl {
+    float: left;
+    margin: 15px 8px 0 0;
+}
+
+.diagrammDl dd {
+    text-align: center;
+    margin-top: 7px;
+}
+
+.day {
+    padding-top: 18px;
+}
+
+
+.lineChartLegend {
+    width: 140px;
+    height: 22px;
+    float: right;
+    margin: -30px 55px 0 0;
+    text-align: center;
+    padding: 4px 0 0 0;
+}
+
+.lineChartLegend span {
+    float: right;
+    margin: -7px -25px 0 0;
+}
+
+

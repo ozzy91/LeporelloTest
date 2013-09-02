@@ -1,0 +1,160 @@
+.top {
+  -webkit-box-sizing: border-box;
+  width:100%;
+	height:21%;
+ 	min-height:61px;
+}
+
+.top > h1 {
+  padding: 11px 20px 0 20px;
+  min-height:40px;
+  position:relative;
+  white-space:nowrap;
+	text-transform:uppercase;
+}
+.top > h3 {
+ 	position:relative;
+  white-space:nowrap;
+}
+
+.top span.legend  {
+  position:absolute;
+  top:0;
+  right:20px;
+}
+.top span.legend span {
+  font-size:12px;
+  font-weight:normal;
+  float:right;
+  line-height:12px;
+  margin-left:0px;
+	margin-top:14px;
+	text-transform:none;
+}
+.top span.legend span:before,
+.top .info li:before {
+  content:"";
+  width: 9px;
+  height: 9px;
+  display:inline-block;
+  margin-right:5px;
+} 
+.top span.legend span.barSecond  {
+  margin-left:5px;
+}
+
+.advertising {
+  -webkit-box-align: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  display: -webkit-box;
+  right: 20px;
+  position: absolute;
+  top: 0;
+  height: 40px;
+}
+
+.main {
+	width:100%;
+  height:64%;
+}
+
+.twoColumn, .threeColumn {
+  float:left;
+}
+
+.playerDetail .left {
+  width:50%;
+}
+
+.playerDetail .right {
+  width:45%;
+}
+
+.top .threeColumn {
+  width:33%;
+}
+
+/* Numbers and Bars*/
+.valueBig .firstValue.card {
+  min-width:26px;
+  text-align:left;
+  margin-right:14px;
+  overflow:visible;
+}
+
+.valueBig .card:after {
+  content:"";
+  display:block;
+  width:8px;
+  height:12px;
+  position:absolute;
+  right:0;
+  top:1px;
+}
+
+.valueBig .card.yellowred:before {
+  content:"";
+  display:block;
+  width:8px;
+  height:12px;
+  position:absolute;
+  right:-2px;
+  top:-2px;
+  z-index:2;
+}
+
+.right .numbers span.bars {
+  width:60px;
+}
+
+.right .numbers span.bars .top, .right .numbers span.bars .bottom {
+  width:60px;
+  -webkit-transform:translate3d(-60px, 0px, 0px);
+}
+
+.numbers span.bars .top, .numbers span.bars .bottom {
+  width:100px;
+  -webkit-transition:all 1.5s ease;
+  -webkit-transform:translate3d(-100px, 0px, 0px);
+}
+
+.playerInfo {
+  float:left;
+  position:relative;
+  height:80px;
+  width:50%;
+}
+.p34_a1b .playerInfo {
+  height:70px;
+  width:50%;
+}
+
+.playerInfo .symbols {
+  position:absolute;
+  bottom:0px;
+}
+
+.playerInfo .symbols .emblem {
+  display:block;
+  float:left;
+  /*background:yellow;*/
+  /* Replace with image */
+  width:23px;
+  height:23px;
+  margin-right:5px;
+  margin-top:1px;
+  /* one px less height than jersey*/
+}
+
+.playerInfo .symbols .jersey {
+  display:block;
+  float:left;
+  width:32px;
+  height:24px;
+  line-height:24px;
+  text-align:center;
+  font-weight:bold;
+  -webkit-mask-box-image:url(../../images/backgrounds/jersey.png);
+  /* SVG does not work on Android*/
+}

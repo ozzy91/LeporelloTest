@@ -1,0 +1,19 @@
+body.teamMembers {
+	background-image:url(../../images/backgrounds/teamMembers.jpg);
+}
+
+body.teamMembers .top {
+ 	height:auto;
+  min-height:68px;
+}
+
+body.teamMembers .main {
+  padding: 10px 0 0 20px;
+  height:auto;
+}
+
+.top h3 span.legend {
+    font-size: 9px;
+    font-weight:normal;
+    line-height:23px;
+}

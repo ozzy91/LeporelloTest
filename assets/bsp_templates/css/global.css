@@ -1,0 +1,531 @@
+@import url(mixins.css);
+@import url(templates/playerDetail.css);
+@import url(templates/playerComparison.css);
+@import url(templates/teamMembers.css);
+@import url(templates/matchDetail.css);
+@import url(templates/topTen.css);
+@import url(templates/characteristicsGlobal.css);
+@import url(templates/teamCharacteristics.css);
+@import url(templates/topLists.css);
+@import url(templates/landscapeDiagrams.css); 
+@import url(templates/field.css); 
+@import url(templates/elements.css); /* test elements, delete in final stage */
+
+/**
+ * General
+ */
+html {
+  height: 100%;
+  overflow-x:hidden;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-box-sizing: border-box;
+  background:url(../images/backgrounds/lawn.jpg) no-repeat center 0 #262626;
+  background-size:cover;
+  font-family:Verdana, sans-serif;
+  font-size:10px;
+  height: 100%;
+  width:320px;
+  margin:0 auto;
+  height: 100%;
+  overflow:hidden;
+}
+
+body * {
+  /* disalbes the color highlighting of a link */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+  
+  -webkit-box-sizing: border-box;
+}
+
+canvas {
+  -webkit-transform:translate3d(0,0,0);
+}
+
+h1, h2, h3 {
+  font-weight:bold;
+}
+
+h1 {
+  font-size:14px;
+}
+
+h2 {
+  font-size:12px;
+}
+
+h3 {
+  font-size:11px;
+}
+
+h1.nextpage {
+  font-size: 14px;
+  padding:7px 20px;
+  width:100%;
+  text-transform:uppercase;
+}
+
+p {
+  line-height:1.4;
+  margin-bottom: 6px;
+}
+
+a:link, a:visited, a:hover, a:active, a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+ul.flex p {
+  margin:0 0 0 0;
+  font-size:11px;
+  line-height:1;
+}
+
+/* Flex */
+ul.flex,
+div.flex {
+  height:100%;
+  -webkit-box-align: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  display: -webkit-box;
+}
+
+ul.flex li {
+  -webkit-box-flex: 1;
+  min-height:28px;
+  width:100%;
+}
+
+div.flex dl {
+  -webkit-box-align: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: start;
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  width:100%;
+  min-height:22px;
+}
+
+div.flex dl .cennter {
+  -webkit-box-pack: center;
+}
+
+
+dl.flex dt,
+dl.flex dd {
+  -webkit-box-flex: 1;
+  min-height:22px;
+}
+
+/*Numbers and Bars */
+.valueBig {
+  font-weight:bold;
+  text-align:right;
+  position:relative;
+}
+
+.valueBig .firstValue {
+  font-size:21px;
+  line-height:16px; 
+  padding-top:6px;
+}
+
+.valueBig .secondValue {
+  font-size:15px;
+}
+
+.percent {
+  font-size:13px;
+}
+
+.valueSmall {
+  font-weight:normal;
+}
+
+.numbers {
+  position:relative;
+  width:100%;
+}
+
+ol.bar.numbersInside .numbers {
+  width:28%;
+}
+
+.numbers small {
+  font-size:9px;
+}
+
+.numbers span {
+  display:inline-block;
+  text-align:right;
+}
+
+.valueBig span {
+  display:inline-block;
+  position:relative;
+}
+
+p.valueBig span {
+  float:left;
+}
+
+.numbers span.bars {
+  width:76%;
+  text-align:left;
+  position:relative;
+  overflow:hidden;
+}
+
+.numbers span.bar {
+  height:13px;
+  margin-bottom:2px;
+}
+
+ol.bar.numbersInside .numbers span.bar { 
+height:20px;
+}
+
+
+.cell {
+  padding-bottom:0px !important;
+  position:relative;
+}
+
+.cell p {
+  margin-bottom: 4px;
+}
+
+.main .cell p {
+  margin-bottom: 5px;
+}
+
+/* Double Bars */
+.doubleBar {
+  width:200%;
+  height:13px;
+  -webkit-transition: all 1.5s ease;
+  -webkit-transform:translate3d(-25%, 0, 0);
+}
+
+ol.bar.numbersInside .doubleBar {
+  height:20px;
+}
+
+.doubleBar .bar {
+  width:50%;
+  position:absolute;
+}
+
+.doubleBar .bar:nth-child(1) {
+  left:-1px;
+}
+
+ol.bar.numbersInside .doubleBar .bar:nth-child(1) {
+  left:0;
+}
+
+.doubleBar .bar:nth-child(2) {
+  right:-2px;
+  padding-bottom:10px;
+  position:relative;
+}
+
+.playerComparison .doubleBar .bar:nth-child(2) {
+  right:0px;
+}
+
+ol.bar.numbersInside .doubleBar .bar:nth-child(2) {
+  right:0;
+}
+
+.numbers .doubleBarValue {
+  font-weight:bold;
+  position:absolute;
+  top:1px;
+  left:0;
+  padding:0 0 0 3px;
+  z-index:3;
+  opacity:0;
+}
+
+.playerComparison .numbers .doubleBarValue {
+  font-weight:normal;
+  top:1px;
+  left:2px;
+  opacity:1;
+}
+
+.numbers .doubleBarValue:nth-child(3) {
+  left:auto;
+  right:4px;
+} 
+
+.playerComparison .numbers .doubleBarValue:nth-child(3) {
+  right:6px;
+} 
+
+/*Slide Bar*/
+.slideBar {
+  height:20px;
+}
+.slideBar span.bar {
+  width:100%;
+  position:absolute;
+  left:-100%; 
+  height:20px; 
+  -webkit-transition:all 1s ease;
+}
+.slideBar span.bar:first-child {
+  z-index:2;
+}               
+.slideBar span.bar:last-child {
+  z-index:1;
+}
+/* Small Circle*/
+.smallCircle {
+    min-height: 50px;
+}
+
+.smallCircle .numbers {
+  width:auto;      
+  margin-right: 10px;
+}
+.smallCircle .circle {
+  width:40px;
+  height:40px;
+  margin-top:5px;
+  background:url(../images/backgrounds/circle.png);
+  background-size:40px 40px;
+}
+.smallCircle .circle, 
+.smallCircle .numbers {
+  float:left;
+}   
+.smallCircle .percent {
+   margin-left:-2px;
+}                      
+.smallCircle .percent .firstValue {
+  line-height:11px;
+}
+
+
+/*Big circle*/
+.bigCircle {
+  width:132px;
+  height:132px;
+  position:absolute; 
+  top:0;
+  background:url(../images/backgrounds/circle.png);
+  background-size:132px 132px;
+}                  
+
+.circleNumbers {
+  position:relative;
+  width:132px;
+  height:92px;
+  text-align:center;
+  padding-top:40px;
+  display:block !important;
+}
+                                    
+.circleNumbers .valueBig span {
+  display:inline-block;
+}  
+.circleNumbers .valueBig .secondValue {
+  font-size:16px; 
+  height: auto;
+  overflow: visible;
+  right: auto;
+}
+.circleNumbers .valueBig .firstValue {
+  font-size: 21px;
+  line-height: 1;
+  min-width: 21px;
+  height: auto;
+  overflow: visible;
+  right: auto;
+}
+.circleNumbers .percent {
+  font-size:16px;
+  margin-left:-2px;
+} 
+.circleNumbers .percent .firstValue {
+  line-height:11px;
+}
+.circleNumbers .percent .secondValue {
+  line-height:13px;
+}
+
+ol.bar.numbersInside .numbers .doubleBarValue {
+  height:20px;
+  line-height:18px;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+/*Common*/
+.bottom h1 {
+  position:absolute;
+  bottom:0px;
+  white-space:nowrap;
+}
+.bottom {
+  position:absolute;
+  bottom:0px;
+  width:320px;
+} 
+.main {
+  padding:0px 20px;
+}
+
+.twoColumn {
+  width:130px;
+} 
+.twoColumn.left {
+  margin-right:20px;
+}
+
+.bottom .subtitle {
+  position:absolute;
+  bottom:33px; 
+  padding:5px 20px;
+  width:100%; 
+  font-size:9px;
+  min-height:20px;
+}
+
+.bottom.noNavi .subtitle {
+  bottom:0px;
+  padding: 10px 20px !important;
+}
+
+.bottom .subtitle span {
+  position:absolute;
+  right:20px;
+  top:0px;
+  height:20px;
+  line-height:20px;
+}
+
+.bottom .subtitle.right {
+  padding:0;
+  background:none;
+  width:55px;
+  right:20px;
+  font-size:10px;
+}
+
+.bottom .subtitle.right img {
+  margin-top:2px;
+}
+
+.bottom p {
+  padding:0 75px 0 20px;
+}
+
+.bottom.withAd { 
+  position:absolute;
+  bottom:0px;
+  overflow:visible;
+  min-height:0;
+  height:auto;
+}
+.bottom.withAd h1 {
+  bottom:51px;
+}
+.bottom.withAd .ad {
+  bottom:0px;
+  height:52px;
+}
+.bottom.withAd .subtitle { 
+  bottom:84px;
+}
+
+/*Cards*/
+.card {
+  position:absolute;
+  width:15px;
+  height:20px;
+  top:0;
+} 
+.cards {
+  margin-top:10px;
+}
+.cardLabel {
+  font-weight:bold;
+  padding-left:20px;
+  margin-right:20px; 
+  position:relative;
+  padding-top:3px;
+}
+
+.yellowredcard .card.red {
+  left:2px;
+  top:2px;
+}
+
+/* three column */
+.top .threeColumn {
+  -webkit-box-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: center;
+  display: -webkit-box;
+  margin-top:5px;
+}
+
+.top .threeColumn:nth-child(2) {
+  x-webkit-box-orient: vertical;
+  height:53px;
+}
+
+.teamlogo {
+  margin:0 8px 0;
+}
+
+/* Player Pics*/
+.playerAndLogo .playerPic,
+.playerAndLogo .teamInfo {
+  display:block;
+  float:left;
+} 
+.playerAndLogo .teamInfo {
+  width:70px; 
+  margin-left:10px; 
+  height:56px;
+  position:relative;
+}
+.playerAndLogo .teamInfo img {
+  position:absolute;
+  bottom:0;
+  display:block;
+}
+
+/* vs. */
+.header .vs {
+  position:absolute;
+  right:19px;
+  /* right: 40px; */
+  top:0;
+}
+ul.vs li {
+  display:inline-block;
+  vertical-align:middle;
+  font-size:12px;
+  line-height:12px;
+}
+
+.push .bottom .subtitle {
+  background:none;
+  bottom:26px;
+} 
+.push ol.topbottom li,
+.withAd ol.topbottom li {
+  min-height: 22px;
+} 
+
+.pullUp {
+  margin-top:-42px;
+}

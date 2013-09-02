@@ -1,0 +1,222 @@
+body.fieldBody {
+	height:auto; 
+}
+body.fieldBody.landscape {
+	padding:5px;
+}
+body.fieldBody .top {
+	height:auto;
+	min-height:0;
+}
+
+.field {
+	overflow:hidden;
+	height:460px;
+	background:#1a1;
+	position:relative;
+	background:url(../../images/backgrounds/playground.png) no-repeat 20px 13px;
+	background-size:280px auto;
+}
+.field.landscape {
+	height:320px;
+	background:url(../../images/backgrounds/playground_land.png) no-repeat 2px 10px;
+	background-size:480px auto;
+}     
+.player {
+	background:#faea00; 
+	color:#000;
+	font-size:9px;
+	font-weight:bold;
+	height:24px;
+	width:28px; 
+	padding-top:5px;
+	position:absolute;
+	left:-14px;
+	top:-12px;
+/*			position:absolute;*/
+	-webkit-mask-box-image:url(../../images/backgrounds/jersey.png);
+} 
+.goalie .player {
+	background:#fff !important;
+}
+.guest .player {
+	background:#fa0000; 
+}
+
+.playerWrapper {       
+	position:absolute;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);    
+	-webkit-transform:translate(-100px, 150px) translate3d(0,0,0); 
+	text-align:center;
+} 
+.playerWrapper h3 {
+	font-weight:normal;
+	margin-left:-50%;
+	text-align:left;
+	margin-top:12px;
+}                 
+
+.landscape .playerWrapper {
+	 -webkit-transform:translate(240px, -50px) translate3d(0,0,0); 
+}    
+
+.dropTarget {
+	position:absolute;
+	top:196px;
+	width:35px;
+	height:60px; 
+	border:2px dotted white; 
+}
+.dropTarget.right {
+	right:0;
+}
+
+.landscape .dropTarget {
+	top:0;
+	width:60px;
+	height:35px;
+	left:205px;
+} 
+.landscape .dropTarget.right {
+	right:auto;  
+	top:auto;
+	bottom:0px;
+}                  
+/*Dummy*/
+.wiggle {
+/*	-webkit-animation:wiggle 0.2s linear; */
+	background:green !important;
+}
+/*Not used*/
+@-webkit-keyframes wiggle {
+	0% {
+		-webkit-transform:rotate(0);
+	}                           
+	25% {
+		-webkit-transform:rotate(10deg);
+	}                               
+	50% {
+		-webkit-transform:rotate(0deg);
+	}                          
+	75% {
+		-webkit-transform:rotate(-10deg);
+	}
+	100% {
+		-webkit-transform:rotate(0deg);
+	}
+}
+/*Just for developing...*/
+.marker {
+	width:3px;
+	height:3px;
+	background:rgba(255,0,0,0.1);
+	position:absolute;
+}
+
+.field .info, .field .logo {
+	position:absolute;
+	left: 20px;
+	width: 280px;
+}
+.field .info span {
+	float:right;
+}
+.field .info.home {
+	top:2px;
+}
+.field .info.guest {
+	bottom:2px;
+}
+.field .logo {
+	width:90px;
+	display:table;
+	top:20px;
+	left:26px;
+	height:23px;
+}
+.field .logo.guest {
+	bottom:25px;
+	top:auto;
+}
+.field .logo span {
+	display:table-cell;
+	vertical-align:middle; 
+	line-height:10px;
+	padding-left:26px;
+}
+.field .logo img {
+	width:23px;       
+	height:23px;     
+	position:absolute;
+}
+ 
+/*Dummy Popup*/
+.fieldBody .popup {
+	height:460px; 
+	width:320px;    
+	background:rgba(255,255,255,0.3);
+	position:absolute; 
+	z-index:999;
+	color:#000;
+	display:none;
+}
+.fieldBody .popup h1 {
+	background:#fff;
+	margin-top:200px; 
+	text-align:center;
+	padding:20px 0;
+}
+
+/* Player Positions */
+/* Keeper */
+.marker:nth-child(1) {
+	-webkit-transform:translate(160px, 35px);
+}
+/* 4 - 2 - 3 - 1 */ 
+.tactic-4-2-3-1 .marker:nth-child(2) {
+	-webkit-transform:translate(50px, 90px);
+}                                      
+.tactic-4-2-3-1 .marker:nth-child(3) {
+	-webkit-transform:translate(120px, 77px);
+}
+.tactic-4-2-3-1 .marker:nth-child(4) {
+	-webkit-transform:translate(203px, 77px);
+}                                
+.tactic-4-2-3-1 .marker:nth-child(5) {
+	-webkit-transform:translate(274px, 90px);
+}  
+.tactic-4-2-3-1 .marker:nth-child(6) {
+	-webkit-transform:translate(120px, 120px);
+}                                  
+.tactic-4-2-3-1 .marker:nth-child(7) {
+	-webkit-transform:translate(204px, 120px);
+}                                  
+.tactic-4-2-3-1 .marker:nth-child(8) {
+	-webkit-transform:translate(70px, 166px);
+}                                  
+.tactic-4-2-3-1 .marker:nth-child(9) {
+	-webkit-transform:translate(160px, 166px);
+}                                  
+.tactic-4-2-3-1 .marker:nth-child(10) {
+	-webkit-transform:translate(250px, 166px);
+}                                   
+.tactic-4-2-3-1 .marker:nth-child(11) {
+	-webkit-transform:translate(160px, 200px);
+} 
+.landscape .tactic-4-2-3-1 .marker:nth-child(11) {
+	-webkit-transform:translate(160px, 210px);
+}
+
+/* 4 - 3 - 2 - 1 */ 
+.tactic-4-3-2-1 .marker:nth-child(2) {
+	-webkit-transform:translate(10px, 20px);
+}                                      
+.tactic-4-3-2-1 .marker:nth-child(3) {
+	-webkit-transform:translate(30px, 30px);
+}
+.tactic-4-3-2-1 .marker:nth-child(4) {
+	-webkit-transform:translate(50px, 30px);
+}                                
+.tactic-4-3-2-1 .marker:nth-child(5) {
+	-webkit-transform:translate(70px, 50px);
+}

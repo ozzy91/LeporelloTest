@@ -1,0 +1,20 @@
+.playerjersey {
+    background:#faea00;
+    color:#000;
+    display: block;
+    height:13px;
+    width:15px;
+    float: left;
+    -webkit-mask-box-image:url(../images/backgrounds/jersey.png);
+}
+.numNextJersey {
+    float: left;
+    display: block;
+    margin-left: 4px;
+    padding-bottom: 4px;
+}
+.clear { clear:both; }
+.change_out { display:inline-block;width:8px;height:10px;background:url('../images/icons/change_out@2x.png') 0 1px no-repeat;background-size:8px 10px; }
+.change_in { display:inline-block;width:8px;height:10px;background:url('../images/icons/change_in@2x.png') 0 1px no-repeat;background-size:8px 10px; }
+
+.smallTeamLogo { position: absolute;right:20px;top:0; }

@@ -1,0 +1,106 @@
+.playerComparison .top {
+	height:30%;
+ 	min-height:140px;
+}
+
+.playerComparison .main {
+	height:auto;
+}
+
+.playerComparison .lastGame {
+  text-align:center;
+  font-size:11px;
+  line-height:13px;
+}
+
+.playerComparison .lastGame h1 {
+  font-size:18px;
+}
+
+.playerComparison .numbers span.bars {
+  width:100%;
+  height:13px;
+  margin:2px 0 0 0;
+}
+
+.playerComparison ul.flex li {
+  min-height:31px;
+}
+
+.playerComparison div.info h3 {
+  text-align:right;
+  padding-right:30px;
+}
+
+.vsPlayer { 
+	width:300px;
+	padding:0 0 0 20px;
+	position:relative;
+	margin-top:16px;
+} 
+.vsPlayer.team {
+	margin-top:4px;
+}
+.vsPlayer.team .leftPlayer {
+	text-align:right; 
+	width:70px;   
+	display:table;
+}
+.vsPlayer.team .rightPlayer {
+	text-align:left;
+}                          
+.vsPlayer.team .rightPlayer,
+.vsPlayer.team .leftPlayer {
+	width:70px;
+	display:table; 
+	height:50px;
+}
+.vsPlayer.team .rightPlayer p,
+.vsPlayer.team .leftPlayer p {
+	display:table-cell;
+	vertical-align:middle;
+} 
+.vsPlayer h1 { 
+	background:none !important;
+	display:inline-block;
+	margin:0 6px;
+	line-height:12px;
+	text-align:center;
+}
+.vsPlayer h1 span { 
+	font-weight:normal;
+	font-size:10px; 
+}
+
+.leftPlayer, .rightPlayer {
+	position:absolute; 
+	top:0;
+}
+.rightPlayer {
+	right:0; 
+	text-align:right;
+}                  
+.leftPlayer img, .rightPlayer img {
+/*	display:block;*/
+}
+.goalCount {
+	margin-top:14px;
+}
+
+.playerComparison li p {
+	text-align:center;
+	margin-bottom:0;
+}
+
+/*.playerComparison .main {
+	height:58%;
+}*/
+
+.playerComparison ul.fixedPercent li {
+	
+}
+.playerComparison.team .top {
+	height: 20%;
+	min-height: 90px;
+}
+

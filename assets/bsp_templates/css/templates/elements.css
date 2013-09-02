@@ -1,0 +1,14 @@
+body.elements {
+  overflow:auto;
+}
+
+body.elements.main,
+body.elements.matchMain {
+  height:auto;
+}
+
+body.elements .numbers span.bars {
+  width: 100%;
+  height: 13px;
+  margin: 2px 0 0 0;
+}

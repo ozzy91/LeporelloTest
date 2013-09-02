@@ -1,0 +1,227 @@
+/* TEAM COLORS ... background -> jersey, color -> number
+
+weiss			#ffffff
+grau			#888888
+schwarz			#000000
+
+braun			#582f24
+rot				#bf1010
+orange			#ce5d0b
+gold			#dca511
+gelb			#ead709
+gruen			#45931f
+blau			#1a97c6
+marine			#1a22b9
+lila			#691ca4
+
+*/
+
+.colors_team_91_home	{ background-color:#ffffff; color:#bf1010; }
+.colors_team_91_guest	{ background-color:#bf1010; color:#ffffff; }
+
+.colors_team_4_home		{ background-color:#45931f; color:#ffffff; }
+.colors_team_4_guest	{ background-color:#000000; color:#45931f; }
+
+.colors_team_17_home	{ background-color:#ead709; color:#000000; }
+.colors_team_17_guest	{ background-color:#000000; color:#ead709; }
+
+.colors_team_12_home	{ background-color:#ffffff; color:#bf1010; }
+.colors_team_12_guest	{ background-color:#1a22b9; color:#ffffff; }
+
+.colors_team_3209_home	{ background-color:#1a97c6; color:#ffffff; }
+.colors_team_3209_guest	{ background-color:#ffffff; color:#1a97c6; }
+
+.colors_team_7_home		{ background-color:#bf1010; color:#ffffff; }
+.colors_team_7_guest	{ background-color:#ffffff; color:#000000; }
+
+.colors_team_9_home		{ background-color:#bf1010; color:#000000; }
+.colors_team_9_guest	{ background-color:#ffffff; color:#bf1010; }
+
+.colors_team_30_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_30_guest	{ background-color:#1a22b9; color:#ffffff; }
+
+.colors_team_19_home	{ background-color:#ffffff; color:#45931f; }
+.colors_team_19_guest	{ background-color:#888888; color:#45931f; }
+
+.colors_team_14_home	{ background-color:#bf1010; color:#dca511; }
+.colors_team_14_guest	{ background-color:#ffffff; color:#ce5d0b; }
+
+.colors_team_81_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_81_guest	{ background-color:#ffffff; color:#bf1010; }
+
+.colors_team_2_home		{ background-color:#1a97c6; color:#ffffff; }
+.colors_team_2_guest	{ background-color:#ffffff; color:#1a97c6; }
+
+.colors_team_11_home	{ background-color:#ffffff; color:#bf1010; }
+.colors_team_11_guest	{ background-color:#bf1010; color:#ffffff; }
+
+.colors_team_24_home	{ background-color:#45931f; color:#ffffff; }
+.colors_team_24_guest	{ background-color:#000000; color:#45931f; }
+
+.colors_team_32_home	{ background-color:#bf1010; color:#000000; }
+.colors_team_32_guest	{ background-color:#000000; color:#bf1010; }
+
+.colors_team_13_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_13_guest	{ background-color:#ffffff; color:#000000; }
+
+.colors_team_82_home	{ background-color:#ffffff; color:#45931f; }
+.colors_team_82_guest	{ background-color:#000000; color:#45931f; }
+
+.colors_team_29_home	{ background-color:#1a97c6; color:#ffffff; }
+.colors_team_29_guest	{ background-color:#bf1010; color:#000000; }
+
+.colors_team_16_home	{ background-color:#ffffff; color:#bf1010; }
+.colors_team_16_guest	{ background-color:#000000; color:#dca511; }
+
+.colors_team_1422_home	{ background-color:#ffffff; color:#000000; }
+.colors_team_1422_guest	{ background-color:#000000; color:#ffffff; }
+
+.colors_team_64_home	{ background-color:#691ca4; color:#ffffff; }
+.colors_team_64_guest	{ background-color:#ffffff; color:#691ca4; }
+
+.colors_team_62_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_62_guest	{ background-color:#ffffff; color:#bf1010; }
+
+.colors_team_8_home		{ background-color:#1a97c6; color:#ffffff; }
+.colors_team_8_guest	{ background-color:#ffffff; color:#1a97c6; }
+
+.colors_team_41_home	{ background-color:#ead709; color:#1a97c6; }
+.colors_team_41_guest	{ background-color:#1a97c6; color:#ead709; }
+
+.colors_team_78_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_78_guest	{ background-color:#ffffff; color:#bf1010; }
+
+.colors_team_65_home	{ background-color:#ead709; color:#000000; }
+.colors_team_65_guest	{ background-color:#000000; color:#ead709; }
+
+.colors_team_1_home		{ background-color:#1a97c6; color:#ffffff; }
+.colors_team_1_guest	{ background-color:#000000; color:#ffffff; }
+
+.colors_team_1295_home	{ background-color:#1a97c6; color:#000000; }
+.colors_team_1295_guest	{ background-color:#000000; color:#1a97c6; }
+
+.colors_team_7659_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_7659_guest	{ background-color:#ffffff; color:#000000; }
+
+.colors_team_37_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_37_guest	{ background-color:#ffffff; color:#bf1010; }
+
+.colors_team_5_home		{ background-color:#1a22b9; color:#1a97c6; }
+.colors_team_5_guest	{ background-color:#ffffff; color:#1a97c6; }
+
+.colors_team_109_home	{ background-color:#000000; color:#1a97c6; }
+.colors_team_109_guest	{ background-color:#1a97c6; color:#000000; }
+
+.colors_team_1377_home	{ background-color:#ffffff; color:#bf1010; }
+.colors_team_1377_guest	{ background-color:#000000; color:#bf1010; }
+
+.colors_team_1604_home	{ background-color:#000000; color:#ffffff; }
+.colors_team_1604_guest	{ background-color:#ffffff; color:#000000; }
+
+.colors_team_18_home	{ background-color:#582f24; color:#ffffff; }
+.colors_team_18_guest	{ background-color:#ffffff; color:#582f24; }
+
+.colors_team_122_home	{ background-color:#bf1010; color:#000000; }
+.colors_team_122_guest	{ background-color:#000000; color:#bf1010; }
+
+.colors_team_104_home	{ background-color:#45931f; color:#ffffff; }
+.colors_team_104_guest	{ background-color:#ffffff; color:#45931f; }
+
+.colors_team_45_home	{ background-color:#691ca4; color:#ffffff; }
+.colors_team_45_guest	{ background-color:#ffffff; color:#691ca4; }
+
+.colors_team_3_home		{ background-color:#ffffff; color:#1a97c6; }
+.colors_team_3_guest	{ background-color:#000000; color:#ffffff; }
+
+.colors_team_4440_home	{ background-color:#ffffff; color:#bf1010; }
+.colors_team_4440_guest	{ background-color:#45931f; color:#ffffff; }
+
+.colors_team_106_home	{ background-color:#1a97c6; color:#ffffff; }
+.colors_team_106_guest	{ background-color:#ffffff; color:#000000; }
+
+.colors_team_11306_home	{ background-color:#ffffff; color:#1a97c6; }
+.colors_team_11306_guest	{ background-color:#bf1010; color:#ffffff; }
+
+.colors_team_6_home		{ background-color:#1a97c6; color:#ffffff; }
+.colors_team_6_guest	{ background-color:#ffffff; color:#1a97c6; }
+
+.colors_team_110_home	{ background-color:#ead709; color:#000000; }
+.colors_team_110_guest	{ background-color:#000000; color:#ead709; }
+
+.colors_team_10_home	{ background-color:#1a97c6; color:#ffffff; }
+.colors_team_10_guest	{ background-color:#000000; color:#1a97c6; }
+
+.colors_team_98_home	{ background-color:#1a97c6; color:#ffffff; }
+.colors_team_98_guest	{ background-color:#ffffff; color:#1a97c6; }
+
+.colors_team_38_home	{ background-color:#bf1010; color:#1a97c6; }
+.colors_team_38_guest	{ background-color:#1a97c6; color:#bf1010; }
+
+.colors_team_26_home	{ background-color:#ffffff; color:#1a97c6; }
+.colors_team_26_guest	{ background-color:#1a97c6; color:#ffffff; }
+
+.colors_team_127_home	{ background-color:#1a22b9; color:#ffffff; }
+.colors_team_127_guest	{ background-color:#ffffff; color:#000000; }
+
+.colors_team_120_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_120_guest	{ background-color:#ffffff; color:#bf1010; }
+
+.colors_team_1293_home	{ background-color:#ffffff; color:#bf1010; }
+.colors_team_1293_guest	{ background-color:#bf1010; color:#ffffff; }
+
+.colors_team_61_home	{ background-color:#ffffff; color:#bf1010; }
+.colors_team_61_guest	{ background-color:#bf1010; color:#ffffff; }
+
+.colors_team_87_home	{ background-color:#ffffff; color:#000000; }
+.colors_team_87_guest	{ background-color:#000000; color:#ffffff; }
+
+.colors_team_1291_home	{ background-color:#ead709; color:#000000; }
+.colors_team_1291_guest	{ background-color:#000000; color:#ead709; }
+
+.colors_team_12083_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_12083_guest	{ background-color:#ffffff; color:#bf1010; }
+
+.colors_team_1554_home	{ background-color:#45931f; color:#000000; }
+.colors_team_1554_guest	{ background-color:#000000; color:#45931f; }
+
+.colors_team_25_home	{ background-color:#ffffff; color:#bf1010; }
+.colors_team_25_guest	{ background-color:#bf1010; color:#ffffff; }
+
+.colors_team_31_home	{ background-color:#ffffff; color:#45931f; }
+.colors_team_31_guest	{ background-color:#45931f; color:#ffffff; }
+
+.colors_team_3283_home	{ background-color:#bf1010; color:#000000; }
+.colors_team_3283_guest	{ background-color:#000000; color:#bf1010; }
+
+.colors_team_36_home	{ background-color:#1a97c6; color:#ffffff; }
+.colors_team_36_guest	{ background-color:#ffffff; color:#1a97c6; }
+
+.colors_team_4232_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_4232_guest	{ background-color:#ffffff; color:#bf1010; }
+
+.colors_team_4436_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_4436_guest	{ background-color:#ffffff; color:#bf1010; }
+
+.colors_team_4455_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_4455_guest	{ background-color:#ffffff; color:#bf1010; }
+
+.colors_team_52_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_52_guest	{ background-color:#ffffff; color:#bf1010; }
+
+.colors_team_5303_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_5303_guest	{ background-color:#ffffff; color:#bf1010; }
+
+.colors_team_5367_home	{ background-color:#1a97c6; color:#ead709; }
+.colors_team_5367_guest	{ background-color:#ead709; color:#1a97c6; }
+
+.colors_team_5456_home	{ background-color:#000000; color:#ffffff; }
+.colors_team_5456_guest	{ background-color:#ffffff; color:#000000; }
+
+.colors_team_5584_home	{ background-color:#45931f; color:#000000; }
+.colors_team_5584_guest	{ background-color:#000000; color:#45931f; }
+
+.colors_team_5836_home	{ background-color:#bf1010; color:#ffffff; }
+.colors_team_5836_guest	{ background-color:#ffffff; color:#bf1010; }
+
+.colors_team_9858_home	{ background-color:#bf1010; color:#1a97c6; }
+.colors_team_9858_guest	{ background-color:#1a97c6; color:#bf1010; }

@@ -1,0 +1,19 @@
+
+.teamPic, .stadionPic {
+  -webkit-box-sizing: initial;
+  box-sizing: initial;
+  overflow: hidden;
+  float:left;
+  padding:3px 20px 0 0;
+}
+
+.teamPic img {
+  width:130px;
+  height:81px;
+}
+
+.stadionPic img {
+  width:84px;
+  height:59px;
+  margin: 22px 0 0 0;
+}

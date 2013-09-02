@@ -1,0 +1,93 @@
+/**************************** Player Comparison Two Bars *************************************/
+.allBar {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+}
+
+/* Left */
+@-webkit-keyframes progressBarL1 {
+    from {
+        width: 40%;
+    }
+    to {
+        width: 37%;
+    }
+}
+
+@-webkit-keyframes progressBarL2 {
+    from {
+        width: 40%;
+    }
+    to {
+        width: 55%;
+    }
+}
+
+@-webkit-keyframes progressBarL3 {
+    from {
+        width: 40%;
+    }
+    to {
+        width: 20%;
+    }
+}
+
+.barL1 {
+    width: 20%;
+    -webkit-animation-name: progressBarL3;
+}
+
+.barL2 {
+    width: 55%;
+    -webkit-animation-name: progressBarL2;
+}
+
+.barL3 {
+    width: 37%;
+    -webkit-animation-name: progressBarL1;
+}
+
+
+/* Right */
+@-webkit-keyframes progressBarR1 {
+    from {
+        width: 40%;
+    }
+    to {
+        width: 47%;
+    }
+}
+
+@-webkit-keyframes progressBarR2 {
+    from {
+        width: 40%;
+    }
+    to {
+        width: 29%;
+    }
+}
+
+@-webkit-keyframes progressBarR3 {
+    from {
+        width: 40%;
+    }
+    to {
+        width: 64%;
+    }
+}
+
+
+.barR1 {
+    width: 64%;
+    -webkit-animation-name: progressBarR3;
+}
+
+.barR2 {
+    width: 29%;
+    -webkit-animation-name: progressBarR2;
+}
+
+.barR3 {
+    width: 47%;
+    -webkit-animation-name: progressBarR1;
+}
